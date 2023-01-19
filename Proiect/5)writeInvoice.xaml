@@ -1,0 +1,219 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="writeInvoice" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/word" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:utat="clr-namespace:UiPath.Testing.Activities.TestData;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="peopleDT" Type="InArgument(sd:DataTable)" />
+    <x:Property Name="companyInfo" Type="InArgument(s:String[])" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1553,6752</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>writeInvoice_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="34">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.PDF.Activities</x:String>
+      <x:String>UiPath.Word</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.Word.Activities</x:String>
+      <x:String>UiPath.Testing.Activities.TestData</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="52">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="writeInvoice" sap:VirtualizedContainerService.HintSize="752,6687" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="pdfText" />
+      <Variable x:TypeArguments="x:Int32" Name="index">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:Int32" />
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="s:String[]" Name="pdfTextArray" />
+      <Variable x:TypeArguments="s:String[]" Name="pdfTextArrayLine" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ReadPDFText PreserveFormatting="{x:Null}" DisplayName="Read PDF Text" FileName="PDFfile.pdf" sap:VirtualizedContainerService.HintSize="690,60" sap2010:WorkflowViewState.IdRef="ReadPDFText_1" Range="All" Text="[pdfText]" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="690,90" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[pdfText]" />
+    <Assign sap:VirtualizedContainerService.HintSize="690,82" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign.To>
+        <OutArgument x:TypeArguments="s:String[]">[pdfTextArray]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="s:String[]">[pdfText.Split(Environment.NewLine.ToArray, StringSplitOptions.RemoveEmptyEntries)]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="690,6224" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_2">
+      <ui:InterruptibleWhile.Body>
+        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="654,6058" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Word" sap:VirtualizedContainerService.HintSize="592,5825" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <p:WordApplicationScope AutoSave="False" DisplayName="Word Application Scope" FilePath="Invoice_template.docx" sap:VirtualizedContainerService.HintSize="530,5714" sap2010:WorkflowViewState.IdRef="WordApplicationScope_2">
+              <p:WordApplicationScope.Body>
+                <ActivityAction x:TypeArguments="ui:WordDocument">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ui:WordDocument" Name="WordDocumentScope" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="496,5604" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="s:DateTime" Name="invoiceDate" />
+                      <Variable x:TypeArguments="x:Decimal" Name="invoiceNumber" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <utat:RandomDate DisplayName="Random Date" sap:VirtualizedContainerService.HintSize="434,192" sap2010:WorkflowViewState.IdRef="RandomDate_2" MaxDate="2023-01-19" MinDate="2022-09-04" Output="[invoiceDate]" />
+                    <utat:RandomNumber DisplayName="Random Number" sap:VirtualizedContainerService.HintSize="434,219" sap2010:WorkflowViewState.IdRef="RandomNumber_1" Max="999999" Min="111111" Output="[invoiceNumber]">
+                      <utat:RandomNumber.Decimals>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </utat:RandomNumber.Decimals>
+                    </utat:RandomNumber>
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Generate random invoice date" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_8" Replace="[invoiceDate.ToShortDateString]" ReplaceAll="True" Search="%[date]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Generate random invoice number" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_17" Replace="[invoiceNumber.ToString]" ReplaceAll="True" Search="%[invoice no]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Write issuing company name" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_9" Replace="[companyInfo(0).ToString]" ReplaceAll="True" Search="%[Company Name]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Write issuing company address" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_10" Replace="[companyInfo(2).ToString]" ReplaceAll="True" Search="%[Address]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Write issuing company phone number" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_11" Replace="[companyInfo(4).Split(&quot;:&quot;c)(1)]" ReplaceAll="True" Search="%[Phone]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Write issuing company email address" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_12" Replace="[companyInfo(5).Split(&quot;:&quot;c)(1)]" ReplaceAll="True" Search="%[Email]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Replace Text in Document" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_13" Replace="[peopleDT.Rows(index+1).Item(0).ToString]" ReplaceAll="True" Search="%[Client Name]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Replace Text in Document" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_14" Replace="[peopleDT.Rows(index+1).Item(1).ToString]" ReplaceAll="True" Search="%[Client Phone]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Replace Text in Document" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_15" Replace="[peopleDT.Rows(index+1).Item(2).ToString]" ReplaceAll="True" Search="%[Client Email Address]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Replace Text in Document" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_16" Replace="[peopleDT.Rows(index+1).Item(3).ToString]" ReplaceAll="True" Search="%[Client Address]" />
+                    <ui:Comment Text="{x:Null}" sap:VirtualizedContainerService.HintSize="434,37" sap2010:WorkflowViewState.IdRef="Comment_1" />
+                    <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_4">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="s:String[]">[pdfTextArrayLine]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="s:String[]">[pdfTextArray(index + 1).Split(" "c)]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Write order amount 1" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_18" Replace="[pdfTextArrayLine(1)]" ReplaceAll="True" Search="%[val1]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Write order amount 2" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_19" Replace="[pdfTextArrayLine(2)]" ReplaceAll="True" Search="%[val2]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Write order amount 3" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_20" Replace="[pdfTextArrayLine(3)]" ReplaceAll="True" Search="%[val3]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Write order amount 4" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_21" Replace="[pdfTextArrayLine(4)]" ReplaceAll="True" Search="%[val4]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Write order amount 5" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_22" Replace="[pdfTextArrayLine(5)]" ReplaceAll="True" Search="%[val5]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Write order amount 6" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_23" Replace="[pdfTextArrayLine(6)]" ReplaceAll="True" Search="%[val6]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Write order amount 7" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_24" Replace="[pdfTextArrayLine(7)]" ReplaceAll="True" Search="%[val7]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Write order amount 8" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_25" Replace="[pdfTextArrayLine(8)]" ReplaceAll="True" Search="%[val8]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Write order amount 9" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_26" Replace="[pdfTextArrayLine(9)]" ReplaceAll="True" Search="%[val9]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Write order amount 10" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_27" Replace="[pdfTextArrayLine(10)]" ReplaceAll="True" Search="%[val10]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Write order amount 11" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_28" Replace="[pdfTextArrayLine(11)]" ReplaceAll="True" Search="%[val11]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Write order amount 12" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_29" Replace="[pdfTextArrayLine(12)]" ReplaceAll="True" Search="%[val12]" />
+                    <p:WordReplaceText Found="{x:Null}" DisplayName="Replace Text in Document" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="WordReplaceText_30" Replace="[pdfTextArrayLine(13)]" ReplaceAll="True" Search="%[total]" />
+                    <p:WordExportToPdf DisplayName="Save Document as PDF" FilePath="[&quot;Invoices\test&quot; + index.ToString + &quot;.pdf&quot;]" sap:VirtualizedContainerService.HintSize="434,111" sap2010:WorkflowViewState.IdRef="WordExportToPdf_2" />
+                  </Sequence>
+                </ActivityAction>
+              </p:WordApplicationScope.Body>
+            </p:WordApplicationScope>
+          </Sequence>
+          <Assign sap:VirtualizedContainerService.HintSize="592,82" sap2010:WorkflowViewState.IdRef="Assign_1">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:Int32">[index]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:Int32">[index + 1]</InArgument>
+            </Assign.Value>
+          </Assign>
+        </Sequence>
+      </ui:InterruptibleWhile.Body>
+      <ui:InterruptibleWhile.Condition>
+        <VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="index &lt; 8" />
+      </ui:InterruptibleWhile.Condition>
+    </ui:InterruptibleWhile>
+  </Sequence>
+</Activity>
