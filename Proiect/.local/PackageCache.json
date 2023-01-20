@@ -12,10 +12,10 @@
         "C:\\Users\\Costin\\.nuget\\packages\\excelnumberformat\\1.0.10\\lib/netstandard2.0/ExcelNumberFormat.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74\\lib/netstandard2.0/Microsoft.VisualStudio.OLE.Interop.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\npoi\\2.5.5\\lib/netstandard2.1/NPOI.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\npoi\\2.5.5\\lib/netstandard2.1/NPOI.OOXML.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\npoi\\2.5.5\\lib/netstandard2.1/NPOI.OpenXml4Net.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\npoi\\2.5.5\\lib/netstandard2.1/NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\npoi\\2.5.5\\lib/netstandard2.1/NPOI.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\lib/netstandard2.0/BouncyCastle.Crypto.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\sharpziplib\\1.3.3\\lib/netstandard2.1/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
@@ -23,8 +23,8 @@
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.excel.activities\\2.17.0-preview\\lib/net5.0-windows7.0/Microsoft.Vbe.Interop.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.excel.activities\\2.17.0-preview\\lib/net5.0-windows7.0/Office.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.excel.activities\\2.17.0-preview\\lib/net5.0-windows7.0/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\uipath.excel.activities\\2.17.0-preview\\lib/net5.0-windows7.0/UiPath.Excel.Activities.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.excel.activities\\2.17.0-preview\\lib/net5.0-windows7.0/UiPath.Excel.Activities.Package.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.excel.activities\\2.17.0-preview\\lib/net5.0-windows7.0/UiPath.Excel.Activities.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.excel.activities\\2.17.0-preview\\lib/net5.0-windows7.0/UiPath.Excel.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.platform\\22.10.2\\lib/net6.0-windows7.0/UiPath.Platform.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll"
@@ -39,8 +39,8 @@
       "Assemblies": [
         "C:\\Users\\Costin\\.nuget\\packages\\azure.core\\1.18.0\\lib/net5.0/Azure.Core.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\google.apis\\1.55.0\\lib/netstandard2.0/Google.Apis.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib/netstandard2.0/Google.Apis.Auth.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib/netstandard2.0/Google.Apis.Auth.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\google.apis.calendar.v3\\1.55.0.2554\\lib/netstandard2.0/Google.Apis.Calendar.v3.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\google.apis.core\\1.55.0\\lib/netstandard2.0/Google.Apis.Core.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\google.apis.gmail.v1\\1.55.0.2510\\lib/netstandard2.0/Google.Apis.Gmail.v1.dll",
@@ -73,7 +73,7 @@
         "C:\\Users\\Costin\\.nuget\\packages\\system.memory.data\\1.0.2\\lib/netstandard2.0/System.Memory.Data.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\system.runtime.caching\\5.0.0\\runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\uipath.connectionclient\\1.4.1\\lib/net5.0/ConnectionClient.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.connectionclient\\1.4.2-20221020.8\\lib/net5.0/ConnectionClient.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib/net6.0-windows7.0/Interop.Domino.UiPath.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib/net6.0-windows7.0/Microsoft.Office.Interop.Outlook.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.mail.activities\\1.18.2\\lib/net6.0-windows7.0/Microsoft.Office.Interop.Word.dll",
@@ -86,6 +86,50 @@
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll"
       ],
       "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.mail.activities\\1.18.2"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.MicrosoftOffice365.Activities",
+        "Version": "2.0.0-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\azure.core\\1.18.0\\lib/net5.0/Azure.Core.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\closedxml\\0.95.4\\lib/netstandard2.0/ClosedXML.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\documentformat.openxml\\2.12.1\\lib/netstandard2.0/DocumentFormat.OpenXml.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\excelnumberformat\\1.0.10\\lib/netstandard2.0/ExcelNumberFormat.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\microsoft.graph\\4.11.0\\lib/netstandard2.0/Microsoft.Graph.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\microsoft.graph.core\\2.0.5\\lib/netstandard2.0/Microsoft.Graph.Core.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\microsoft.identity.client\\4.35.1\\lib/netcoreapp2.1/Microsoft.Identity.Client.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\nito.asyncex.context\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Context.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\nito.asyncex.coordination\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Coordination.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\nito.asyncex.interop.waithandles\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Interop.WaitHandles.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\nito.asyncex.oop\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Oop.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\nito.asyncex.tasks\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Tasks.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\nito.cancellation\\1.1.0\\lib/netstandard2.0/Nito.Cancellation.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\nito.collections.deque\\1.1.0\\lib/netstandard2.0/Nito.Collections.Deque.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\nito.disposables\\2.2.0\\lib/netstandard2.1/Nito.Disposables.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.12.2\\lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\system.linq.async\\5.0.0\\lib/netcoreapp3.1/System.Linq.Async.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\system.linq.async.queryable\\5.0.0\\lib/netcoreapp3.1/System.Linq.Async.Queryable.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\system.memory.data\\1.0.2\\lib/netstandard2.0/System.Memory.Data.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\system.runtime.caching\\5.0.0\\runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.connectionclient\\1.4.2-20221020.8\\lib/net5.0/ConnectionClient.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.microsoftoffice365.activities\\2.0.0-preview\\lib/net6.0-windows7.0/UiPath.MicrosoftOffice365.Activities.Design.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.microsoftoffice365.activities\\2.0.0-preview\\lib/net6.0-windows7.0/UiPath.MicrosoftOffice365.Activities.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.microsoftoffice365.activities\\2.0.0-preview\\lib/net6.0-windows7.0/UiPath.MicrosoftOffice365.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.platform\\22.10.2\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.microsoftoffice365.activities\\2.0.0-preview"
     },
     {
       "Package": {
@@ -118,8 +162,8 @@
         "C:\\Users\\Costin\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Options.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\microsoft.management.infrastructure.cimcmdlets\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.Management.Infrastructure.CimCmdlets.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\microsoft.management.infrastructure.runtime.win\\2.0.0\\runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\microsoft.management.infrastructure.runtime.win\\2.0.0\\runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\microsoft.management.infrastructure.runtime.win\\2.0.0\\runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\microsoft.powershell.commands.diagnostics\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.Commands.Diagnostics.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\microsoft.powershell.commands.management\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.Commands.Management.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\microsoft.powershell.commands.utility\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.Commands.Utility.dll",
@@ -155,8 +199,8 @@
         "C:\\Users\\Costin\\.nuget\\packages\\system.servicemodel.duplex\\4.7.0\\lib/netstandard2.0/System.ServiceModel.Duplex.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\system.servicemodel.http\\4.7.0\\lib/netstandard2.0/System.ServiceModel.Http.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\system.servicemodel.nettcp\\4.7.0\\lib/netstandard2.0/System.ServiceModel.NetTcp.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib/netcoreapp2.1/System.ServiceModel.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib/netcoreapp2.1/System.ServiceModel.Primitives.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib/netcoreapp2.1/System.ServiceModel.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\system.servicemodel.security\\4.7.0\\lib/netstandard2.0/System.ServiceModel.Security.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\system.servicemodel.syndication\\5.0.0\\lib/netstandard2.0/System.ServiceModel.Syndication.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\system.serviceprocess.servicecontroller\\5.0.0\\runtimes/win/lib/netstandard2.0/System.ServiceProcess.ServiceController.dll",
@@ -183,8 +227,8 @@
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.testing.activities\\22.12.0-preview\\lib/net6.0-windows7.0/UiPath.Testing.Activities.Design.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.testing.activities\\22.12.0-preview\\lib/net6.0-windows7.0/UiPath.Testing.Activities.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\uipath.testing.activities\\22.12.0-preview\\lib/net6.0-windows7.0/UiPath.Testing.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\uipath.testing.activities\\22.12.0-preview\\lib/net6.0-windows7.0/UiPath.Testing.RulesLibrary.dll"
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.testing.activities\\22.12.0-preview\\lib/net6.0-windows7.0/UiPath.Testing.RulesLibrary.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.testing.activities\\22.12.0-preview\\lib/net6.0-windows7.0/UiPath.Testing.dll"
       ],
       "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.testing.activities\\22.12.0-preview"
     },
@@ -207,26 +251,83 @@
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib/net6.0-windows7.0/UiPath.OCR.Activities.Design.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib/net6.0-windows7.0/UiPath.OCR.Activities.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib/net6.0-windows7.0/UiPath.OCR.Core.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\uipath.ocr.contracts\\2.13.0\\lib/net6.0-windows7.0/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.ocr.contracts\\2.14.0\\lib/net6.0-windows7.0/UiPath.OCR.Contracts.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.platform\\22.10.2\\lib/net6.0-windows7.0/UiPath.Platform.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib/net6.0-windows7.0/UiPath.CV.Activities.Design.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib/net6.0-windows7.0/UiPath.CV.Activities.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib/net6.0-windows7.0/UiPath.CV.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib/net6.0-windows7.0/UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib/net6.0-windows7.0/UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib/net6.0-windows7.0/UiPath.UIAutomationCore.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Design.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib/net6.0-windows7.0/UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib/net6.0-windows7.0/UiPath.Wizards.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net6.0-windows7.0/UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net6.0-windows7.0/UiPath.Vision.Core.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net6.0-windows7.0/UiPath.Vision.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net6.0-windows7.0/UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net6.0-windows7.0/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.WebAPI.Activities",
+        "Version": "1.13.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\avalonedit\\6.1.3.50\\lib/net6.0-windows7.0/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\restsharp\\106.15.0\\lib/netstandard2.0/RestSharp.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.platform\\22.10.2\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.webapi.activities\\1.13.3\\lib/net5.0-windows7.0/UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.webapi.activities\\1.13.3\\lib/net5.0-windows7.0/UiPath.Web.Activities.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.webapi.activities\\1.13.3\\lib/net5.0-windows7.0/UiPath.Web.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.webapi.activities\\1.13.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.PDF.Activities",
+        "Version": "3.12.0-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\bitmiracle.docotic.pdf\\8.8.14277-dev\\lib/netstandard2.0/BitMiracle.Docotic.Pdf.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\bitmiracle.libtiff.net\\2.4.649\\lib/netstandard2.0/BitMiracle.LibTiff.NET.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\ntextcat\\0.3.65\\lib/netstandard2.0/NTextCat.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.documentprocessing.contracts\\1.19.0-preview\\lib/net6.0/UiPath.DocumentProcessing.Contracts.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.documentunderstanding.digitizer\\3.0.0-preview\\lib/net6.0/UiPath.DocumentUnderstanding.Digitizer.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.ocr.contracts\\2.14.0\\lib/net6.0-windows7.0/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.pdf.activities\\3.12.0-preview\\lib/net6.0-windows7.0/UiPath.PDF.Activities.Design.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.pdf.activities\\3.12.0-preview\\lib/net6.0-windows7.0/UiPath.PDF.Activities.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.pdf.activities\\3.12.0-preview\\lib/net6.0-windows7.0/UiPath.PDF.Telemetry.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.pdf.activities\\3.12.0-preview\\lib/net6.0-windows7.0/UiPath.PDF.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.pdf.activities\\3.12.0-preview"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Word.Activities",
+        "Version": "1.14.0-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.word.activities\\1.14.0-preview\\lib/net5.0-windows7.0/Interop.Domino.UiPath.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.word.activities\\1.14.0-preview\\lib/net5.0-windows7.0/Microsoft.Office.Interop.Word.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.word.activities\\1.14.0-preview\\lib/net5.0-windows7.0/Office.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.word.activities\\1.14.0-preview\\lib/net5.0-windows7.0/UiPath.Word.Activities.Design.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.word.activities\\1.14.0-preview\\lib/net5.0-windows7.0/UiPath.Word.Activities.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.word.activities\\1.14.0-preview\\lib/net5.0-windows7.0/UiPath.Word.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\xceed.document.net\\2.0.21359.11160\\lib/net5.0/Xceed.Document.NET5.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\xceed.pdf\\2.0.21359.11160\\lib/net5.0/Xceed.PDF.NET5.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\xceed.words.net\\2.0.21359.11160\\lib/net5.0/Xceed.Words.NET5.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.word.activities\\1.14.0-preview"
     }
   ],
   "Conflicts": [],
@@ -244,6 +345,11 @@
           "Item2": "[4.3.0, )"
         }
       ]
+    },
+    "AvalonEdit": {
+      "Id": "AvalonEdit",
+      "Version": "6.1.3.50",
+      "Dependencies": []
     },
     "Azure.Core": {
       "Id": "Azure.Core",
@@ -286,6 +392,16 @@
           "Item2": "[4.5.2, )"
         }
       ]
+    },
+    "BitMiracle.Docotic.Pdf": {
+      "Id": "BitMiracle.Docotic.Pdf",
+      "Version": "8.8.14277-dev",
+      "Dependencies": []
+    },
+    "BitMiracle.LibTiff.NET": {
+      "Id": "BitMiracle.LibTiff.NET",
+      "Version": "2.4.649",
+      "Dependencies": []
     },
     "ClosedXML": {
       "Id": "ClosedXML",
@@ -1761,6 +1877,11 @@
         }
       ]
     },
+    "NTextCat": {
+      "Id": "NTextCat",
+      "Version": "0.3.65",
+      "Dependencies": []
+    },
     "Polly": {
       "Id": "Polly",
       "Version": "7.1.0",
@@ -1769,6 +1890,11 @@
     "Portable.BouncyCastle": {
       "Id": "Portable.BouncyCastle",
       "Version": "1.9.0",
+      "Dependencies": []
+    },
+    "RestSharp": {
+      "Id": "RestSharp",
+      "Version": "106.15.0",
       "Dependencies": []
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
@@ -2387,11 +2513,25 @@
     },
     "System.Drawing.Common": {
       "Id": "System.Drawing.Common",
-      "Version": "5.0.2",
+      "Version": "5.0.3",
       "Dependencies": [
         {
           "Item1": "Microsoft.Win32.SystemEvents",
           "Item2": "[5.0.0, )"
+        }
+      ]
+    },
+    "System.Drawing.Primitives": {
+      "Id": "System.Drawing.Primitives",
+      "Version": "4.3.0",
+      "Dependencies": [
+        {
+          "Item1": "System.Runtime",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Runtime.Extensions",
+          "Item2": "[4.3.0, )"
         }
       ]
     },
@@ -2751,6 +2891,21 @@
         {
           "Item1": "System.Runtime.Extensions",
           "Item2": "[4.3.0, )"
+        }
+      ]
+    },
+    "System.Linq.Async": {
+      "Id": "System.Linq.Async",
+      "Version": "5.0.0",
+      "Dependencies": []
+    },
+    "System.Linq.Async.Queryable": {
+      "Id": "System.Linq.Async.Queryable",
+      "Version": "5.0.0",
+      "Dependencies": [
+        {
+          "Item1": "System.Linq.Async",
+          "Item2": "[5.0.0, )"
         }
       ]
     },
@@ -4304,7 +4459,7 @@
     },
     "UiPath.ConnectionClient": {
       "Id": "UiPath.ConnectionClient",
-      "Version": "1.4.1",
+      "Version": "1.4.2-20221020.8",
       "Dependencies": [
         {
           "Item1": "Newtonsoft.Json",
@@ -4325,6 +4480,50 @@
         {
           "Item1": "UiPath.Telemetry.Client",
           "Item2": "[1.5.3, )"
+        }
+      ]
+    },
+    "UiPath.DocumentProcessing.Contracts": {
+      "Id": "UiPath.DocumentProcessing.Contracts",
+      "Version": "1.19.0-preview",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[13.0.1, )"
+        }
+      ]
+    },
+    "UiPath.DocumentUnderstanding.Digitizer": {
+      "Id": "UiPath.DocumentUnderstanding.Digitizer",
+      "Version": "3.0.0-preview",
+      "Dependencies": [
+        {
+          "Item1": "BitMiracle.Docotic.Pdf",
+          "Item2": "[8.8.14277-dev, )"
+        },
+        {
+          "Item1": "System.Drawing.Common",
+          "Item2": "[5.0.3, )"
+        },
+        {
+          "Item1": "System.Drawing.Primitives",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.Collections.Immutable",
+          "Item2": "[1.5.0, )"
+        },
+        {
+          "Item1": "NTextCat",
+          "Item2": "[0.3.65, )"
+        },
+        {
+          "Item1": "BitMiracle.LibTiff.NET",
+          "Item2": "[2.4.649, )"
+        },
+        {
+          "Item1": "UiPath.DocumentProcessing.Contracts",
+          "Item2": "[1.19.0-preview, )"
         }
       ]
     },
@@ -4453,6 +4652,44 @@
         }
       ]
     },
+    "UiPath.MicrosoftOffice365.Activities": {
+      "Id": "UiPath.MicrosoftOffice365.Activities",
+      "Version": "2.0.0-preview",
+      "Dependencies": [
+        {
+          "Item1": "ClosedXML",
+          "Item2": "[0.95.4, )"
+        },
+        {
+          "Item1": "Microsoft.Graph",
+          "Item2": "[4.11.0, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[13.0.1, )"
+        },
+        {
+          "Item1": "System.Linq.Async.Queryable",
+          "Item2": "[5.0.0, )"
+        },
+        {
+          "Item1": "UiPath.Activities.RuntimeGovernance",
+          "Item2": "[1.1.6, )"
+        },
+        {
+          "Item1": "UiPath.ConnectionClient",
+          "Item2": "[1.4.2-20221020.8, )"
+        },
+        {
+          "Item1": "UiPath.Platform",
+          "Item2": "[22.10.2, )"
+        },
+        {
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[1.5.3, )"
+        }
+      ]
+    },
     "UiPath.OCR.Activities": {
       "Id": "UiPath.OCR.Activities",
       "Version": "3.11.0",
@@ -4501,11 +4738,45 @@
     },
     "UiPath.OCR.Contracts": {
       "Id": "UiPath.OCR.Contracts",
-      "Version": "2.13.0",
+      "Version": "2.14.0",
       "Dependencies": [
         {
           "Item1": "System.Drawing.Common",
           "Item2": "[5.0.2, )"
+        }
+      ]
+    },
+    "UiPath.PDF.Activities": {
+      "Id": "UiPath.PDF.Activities",
+      "Version": "3.12.0-preview",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[13.0.1, )"
+        },
+        {
+          "Item1": "System.IO.Abstractions",
+          "Item2": "[3.0.10, )"
+        },
+        {
+          "Item1": "System.Threading.Tasks.Dataflow",
+          "Item2": "[5.0.0, )"
+        },
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.5.0, )"
+        },
+        {
+          "Item1": "UiPath.DocumentUnderstanding.Digitizer",
+          "Item2": "[3.0.0-preview, )"
+        },
+        {
+          "Item1": "UiPath.OCR.Contracts",
+          "Item2": "[2.14.0, )"
+        },
+        {
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[1.5.3, )"
         }
       ]
     },
@@ -4704,6 +4975,88 @@
           "Item2": "[2.13.0, )"
         }
       ]
+    },
+    "UiPath.WebAPI.Activities": {
+      "Id": "UiPath.WebAPI.Activities",
+      "Version": "1.13.3",
+      "Dependencies": [
+        {
+          "Item1": "AvalonEdit",
+          "Item2": "[6.1.3.50, )"
+        },
+        {
+          "Item1": "Microsoft.CSharp",
+          "Item2": "[4.7.0, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[13.0.1, )"
+        },
+        {
+          "Item1": "RestSharp",
+          "Item2": "[106.15.0, )"
+        },
+        {
+          "Item1": "UiPath.Platform",
+          "Item2": "[22.10.2, )"
+        }
+      ]
+    },
+    "UiPath.Word.Activities": {
+      "Id": "UiPath.Word.Activities",
+      "Version": "1.14.0-preview",
+      "Dependencies": [
+        {
+          "Item1": "System.Drawing.Common",
+          "Item2": "[5.0.3, )"
+        },
+        {
+          "Item1": "Xceed.Words.NET",
+          "Item2": "[2.0.21359.11160, )"
+        }
+      ]
+    },
+    "Xceed.Document.NET": {
+      "Id": "Xceed.Document.NET",
+      "Version": "2.0.21359.11160",
+      "Dependencies": [
+        {
+          "Item1": "Xceed.Pdf",
+          "Item2": "[2.0.21359.11160, 2.0.21359.11160]"
+        },
+        {
+          "Item1": "System.IO.Packaging",
+          "Item2": "[4.5.0, )"
+        },
+        {
+          "Item1": "System.Drawing.Common",
+          "Item2": "[5.0.2, )"
+        }
+      ]
+    },
+    "Xceed.Pdf": {
+      "Id": "Xceed.Pdf",
+      "Version": "2.0.21359.11160",
+      "Dependencies": [
+        {
+          "Item1": "System.Drawing.Common",
+          "Item2": "[5.0.2, )"
+        }
+      ]
+    },
+    "Xceed.Words.NET": {
+      "Id": "Xceed.Words.NET",
+      "Version": "2.0.21359.11160",
+      "Dependencies": [
+        {
+          "Item1": "Xceed.Document.NET",
+          "Item2": "[2.0.21359.11160, 2.0.21359.11160]"
+        },
+        {
+          "Item1": "Xceed.Pdf",
+          "Item2": "[2.0.21359.11160, 2.0.21359.11160]"
+        }
+      ]
     }
   },
   "AllPackages": [
@@ -4719,6 +5072,16 @@
     },
     {
       "Package": {
+        "Id": "AvalonEdit",
+        "Version": "6.1.3.50"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\avalonedit\\6.1.3.50\\lib\\net6.0-windows7.0\\ICSharpCode.AvalonEdit.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\avalonedit\\6.1.3.50"
+    },
+    {
+      "Package": {
         "Id": "Azure.Core",
         "Version": "1.18.0"
       },
@@ -4726,6 +5089,26 @@
         "C:\\Users\\Costin\\.nuget\\packages\\azure.core\\1.18.0\\lib\\net5.0\\Azure.Core.dll"
       ],
       "Path": "C:\\Users\\Costin\\.nuget\\packages\\azure.core\\1.18.0"
+    },
+    {
+      "Package": {
+        "Id": "BitMiracle.Docotic.Pdf",
+        "Version": "8.8.14277-dev"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\bitmiracle.docotic.pdf\\8.8.14277-dev\\lib\\netstandard2.0\\BitMiracle.Docotic.Pdf.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\bitmiracle.docotic.pdf\\8.8.14277-dev"
+    },
+    {
+      "Package": {
+        "Id": "BitMiracle.LibTiff.NET",
+        "Version": "2.4.649"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\bitmiracle.libtiff.net\\2.4.649\\lib\\netstandard2.0\\BitMiracle.LibTiff.NET.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\bitmiracle.libtiff.net\\2.4.649"
     },
     {
       "Package": {
@@ -4783,8 +5166,8 @@
         "Version": "1.55.0"
       },
       "Assemblies": [
-        "C:\\Users\\Costin\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib\\netstandard2.0\\Google.Apis.Auth.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib\\netstandard2.0\\Google.Apis.Auth.PlatformServices.dll"
+        "C:\\Users\\Costin\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib\\netstandard2.0\\Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib\\netstandard2.0\\Google.Apis.Auth.dll"
       ],
       "Path": "C:\\Users\\Costin\\.nuget\\packages\\google.apis.auth\\1.55.0"
     },
@@ -5594,12 +5977,22 @@
         "Version": "2.5.5"
       },
       "Assemblies": [
-        "C:\\Users\\Costin\\.nuget\\packages\\npoi\\2.5.5\\lib\\netstandard2.1\\NPOI.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\npoi\\2.5.5\\lib\\netstandard2.1\\NPOI.OOXML.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\npoi\\2.5.5\\lib\\netstandard2.1\\NPOI.OpenXml4Net.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\npoi\\2.5.5\\lib\\netstandard2.1\\NPOI.OpenXmlFormats.dll"
+        "C:\\Users\\Costin\\.nuget\\packages\\npoi\\2.5.5\\lib\\netstandard2.1\\NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\npoi\\2.5.5\\lib\\netstandard2.1\\NPOI.dll"
       ],
       "Path": "C:\\Users\\Costin\\.nuget\\packages\\npoi\\2.5.5"
+    },
+    {
+      "Package": {
+        "Id": "NTextCat",
+        "Version": "0.3.65"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\ntextcat\\0.3.65\\lib\\netstandard2.0\\NTextCat.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\ntextcat\\0.3.65"
     },
     {
       "Package": {
@@ -5620,6 +6013,16 @@
         "C:\\Users\\Costin\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\lib\\netstandard2.0\\BouncyCastle.Crypto.dll"
       ],
       "Path": "C:\\Users\\Costin\\.nuget\\packages\\portable.bouncycastle\\1.9.0"
+    },
+    {
+      "Package": {
+        "Id": "RestSharp",
+        "Version": "106.15.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\restsharp\\106.15.0\\lib\\netstandard2.0\\RestSharp.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\restsharp\\106.15.0"
     },
     {
       "Package": {
@@ -6074,12 +6477,22 @@
     {
       "Package": {
         "Id": "System.Drawing.Common",
-        "Version": "5.0.2"
+        "Version": "5.0.3"
       },
       "Assemblies": [
-        "C:\\Users\\Costin\\.nuget\\packages\\system.drawing.common\\5.0.2\\lib\\netcoreapp3.0\\System.Drawing.Common.dll"
+        "C:\\Users\\Costin\\.nuget\\packages\\system.drawing.common\\5.0.3\\lib\\netcoreapp3.0\\System.Drawing.Common.dll"
       ],
-      "Path": "C:\\Users\\Costin\\.nuget\\packages\\system.drawing.common\\5.0.2"
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\system.drawing.common\\5.0.3"
+    },
+    {
+      "Package": {
+        "Id": "System.Drawing.Primitives",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\system.drawing.primitives\\4.3.0\\lib\\netstandard1.1\\System.Drawing.Primitives.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\system.drawing.primitives\\4.3.0"
     },
     {
       "Package": {
@@ -6238,6 +6651,26 @@
         "C:\\Users\\Costin\\.nuget\\packages\\system.linq\\4.3.0\\lib\\netstandard1.6\\System.Linq.dll"
       ],
       "Path": "C:\\Users\\Costin\\.nuget\\packages\\system.linq\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Linq.Async",
+        "Version": "5.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\system.linq.async\\5.0.0\\lib\\netcoreapp3.1\\System.Linq.Async.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\system.linq.async\\5.0.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Linq.Async.Queryable",
+        "Version": "5.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\system.linq.async.queryable\\5.0.0\\lib\\netcoreapp3.1\\System.Linq.Async.Queryable.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\system.linq.async.queryable\\5.0.0"
     },
     {
       "Package": {
@@ -6703,8 +7136,8 @@
         "Version": "4.7.0"
       },
       "Assemblies": [
-        "C:\\Users\\Costin\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib\\netcoreapp2.1\\System.ServiceModel.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib\\netcoreapp2.1\\System.ServiceModel.Primitives.dll"
+        "C:\\Users\\Costin\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib\\netcoreapp2.1\\System.ServiceModel.Primitives.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib\\netcoreapp2.1\\System.ServiceModel.dll"
       ],
       "Path": "C:\\Users\\Costin\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0"
     },
@@ -6923,12 +7356,32 @@
     {
       "Package": {
         "Id": "UiPath.ConnectionClient",
-        "Version": "1.4.1"
+        "Version": "1.4.2-20221020.8"
       },
       "Assemblies": [
-        "C:\\Users\\Costin\\.nuget\\packages\\uipath.connectionclient\\1.4.1\\lib\\net5.0\\ConnectionClient.dll"
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.connectionclient\\1.4.2-20221020.8\\lib\\net5.0\\ConnectionClient.dll"
       ],
-      "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.connectionclient\\1.4.1"
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.connectionclient\\1.4.2-20221020.8"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.DocumentProcessing.Contracts",
+        "Version": "1.19.0-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.documentprocessing.contracts\\1.19.0-preview\\lib\\net6.0\\UiPath.DocumentProcessing.Contracts.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.documentprocessing.contracts\\1.19.0-preview"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.DocumentUnderstanding.Digitizer",
+        "Version": "3.0.0-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.documentunderstanding.digitizer\\3.0.0-preview\\lib\\net6.0\\UiPath.DocumentUnderstanding.Digitizer.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.documentunderstanding.digitizer\\3.0.0-preview"
     },
     {
       "Package": {
@@ -6940,8 +7393,8 @@
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.excel.activities\\2.17.0-preview\\lib\\net5.0-windows7.0\\Microsoft.Vbe.Interop.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.excel.activities\\2.17.0-preview\\lib\\net5.0-windows7.0\\Office.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.excel.activities\\2.17.0-preview\\lib\\net5.0-windows7.0\\UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\uipath.excel.activities\\2.17.0-preview\\lib\\net5.0-windows7.0\\UiPath.Excel.Activities.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.excel.activities\\2.17.0-preview\\lib\\net5.0-windows7.0\\UiPath.Excel.Activities.Package.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.excel.activities\\2.17.0-preview\\lib\\net5.0-windows7.0\\UiPath.Excel.Activities.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.excel.activities\\2.17.0-preview\\lib\\net5.0-windows7.0\\UiPath.Excel.dll"
       ],
       "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.excel.activities\\2.17.0-preview"
@@ -6975,6 +7428,18 @@
     },
     {
       "Package": {
+        "Id": "UiPath.MicrosoftOffice365.Activities",
+        "Version": "2.0.0-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.microsoftoffice365.activities\\2.0.0-preview\\lib\\net6.0-windows7.0\\UiPath.MicrosoftOffice365.Activities.Design.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.microsoftoffice365.activities\\2.0.0-preview\\lib\\net6.0-windows7.0\\UiPath.MicrosoftOffice365.Activities.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.microsoftoffice365.activities\\2.0.0-preview\\lib\\net6.0-windows7.0\\UiPath.MicrosoftOffice365.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.microsoftoffice365.activities\\2.0.0-preview"
+    },
+    {
+      "Package": {
         "Id": "UiPath.OCR.Activities",
         "Version": "3.11.0"
       },
@@ -6988,12 +7453,25 @@
     {
       "Package": {
         "Id": "UiPath.OCR.Contracts",
-        "Version": "2.13.0"
+        "Version": "2.14.0"
       },
       "Assemblies": [
-        "C:\\Users\\Costin\\.nuget\\packages\\uipath.ocr.contracts\\2.13.0\\lib\\net6.0-windows7.0\\UiPath.OCR.Contracts.dll"
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.ocr.contracts\\2.14.0\\lib\\net6.0-windows7.0\\UiPath.OCR.Contracts.dll"
       ],
-      "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.ocr.contracts\\2.13.0"
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.ocr.contracts\\2.14.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.PDF.Activities",
+        "Version": "3.12.0-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.pdf.activities\\3.12.0-preview\\lib\\net6.0-windows7.0\\UiPath.PDF.Activities.Design.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.pdf.activities\\3.12.0-preview\\lib\\net6.0-windows7.0\\UiPath.PDF.Activities.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.pdf.activities\\3.12.0-preview\\lib\\net6.0-windows7.0\\UiPath.PDF.Telemetry.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.pdf.activities\\3.12.0-preview\\lib\\net6.0-windows7.0\\UiPath.PDF.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.pdf.activities\\3.12.0-preview"
     },
     {
       "Package": {
@@ -7035,8 +7513,8 @@
       "Assemblies": [
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.testing.activities\\22.12.0-preview\\lib\\net6.0-windows7.0\\UiPath.Testing.Activities.Design.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.testing.activities\\22.12.0-preview\\lib\\net6.0-windows7.0\\UiPath.Testing.Activities.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\uipath.testing.activities\\22.12.0-preview\\lib\\net6.0-windows7.0\\UiPath.Testing.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\uipath.testing.activities\\22.12.0-preview\\lib\\net6.0-windows7.0\\UiPath.Testing.RulesLibrary.dll"
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.testing.activities\\22.12.0-preview\\lib\\net6.0-windows7.0\\UiPath.Testing.RulesLibrary.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.testing.activities\\22.12.0-preview\\lib\\net6.0-windows7.0\\UiPath.Testing.dll"
       ],
       "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.testing.activities\\22.12.0-preview"
     },
@@ -7050,11 +7528,11 @@
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib\\net6.0-windows7.0\\UiPath.CV.Activities.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib\\net6.0-windows7.0\\UiPath.CV.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib\\net6.0-windows7.0\\UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib\\net6.0-windows7.0\\UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib\\net6.0-windows7.0\\UiPath.UIAutomationCore.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.Design.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib\\net6.0-windows7.0\\UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4\\lib\\net6.0-windows7.0\\UiPath.Wizards.dll"
       ],
       "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.4"
@@ -7067,11 +7545,68 @@
       "Assemblies": [
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net6.0-windows7.0\\UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net6.0-windows7.0\\UiPath.Vision.Core.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net6.0-windows7.0\\UiPath.Vision.dll",
         "C:\\Users\\Costin\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net6.0-windows7.0\\UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\Costin\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net6.0-windows7.0\\UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net6.0-windows7.0\\UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net6.0-windows7.0\\UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.vision\\3.6.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.WebAPI.Activities",
+        "Version": "1.13.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.webapi.activities\\1.13.3\\lib\\net5.0-windows7.0\\UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.webapi.activities\\1.13.3\\lib\\net5.0-windows7.0\\UiPath.Web.Activities.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.webapi.activities\\1.13.3\\lib\\net5.0-windows7.0\\UiPath.Web.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.webapi.activities\\1.13.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Word.Activities",
+        "Version": "1.14.0-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.word.activities\\1.14.0-preview\\lib\\net5.0-windows7.0\\Interop.Domino.UiPath.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.word.activities\\1.14.0-preview\\lib\\net5.0-windows7.0\\Microsoft.Office.Interop.Word.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.word.activities\\1.14.0-preview\\lib\\net5.0-windows7.0\\Office.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.word.activities\\1.14.0-preview\\lib\\net5.0-windows7.0\\UiPath.Word.Activities.Design.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.word.activities\\1.14.0-preview\\lib\\net5.0-windows7.0\\UiPath.Word.Activities.dll",
+        "C:\\Users\\Costin\\.nuget\\packages\\uipath.word.activities\\1.14.0-preview\\lib\\net5.0-windows7.0\\UiPath.Word.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\uipath.word.activities\\1.14.0-preview"
+    },
+    {
+      "Package": {
+        "Id": "Xceed.Document.NET",
+        "Version": "2.0.21359.11160"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\xceed.document.net\\2.0.21359.11160\\lib\\net5.0\\Xceed.Document.NET5.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\xceed.document.net\\2.0.21359.11160"
+    },
+    {
+      "Package": {
+        "Id": "Xceed.Pdf",
+        "Version": "2.0.21359.11160"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\xceed.pdf\\2.0.21359.11160\\lib\\net5.0\\Xceed.PDF.NET5.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\xceed.pdf\\2.0.21359.11160"
+    },
+    {
+      "Package": {
+        "Id": "Xceed.Words.NET",
+        "Version": "2.0.21359.11160"
+      },
+      "Assemblies": [
+        "C:\\Users\\Costin\\.nuget\\packages\\xceed.words.net\\2.0.21359.11160\\lib\\net5.0\\Xceed.Words.NET5.dll"
+      ],
+      "Path": "C:\\Users\\Costin\\.nuget\\packages\\xceed.words.net\\2.0.21359.11160"
     }
   ]
 }

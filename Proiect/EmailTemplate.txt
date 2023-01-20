@@ -1,0 +1,6 @@
+Hello Mr/Mrs {0},
+
+Please find your invoiced attached below
+
+Regards,
+{1}
